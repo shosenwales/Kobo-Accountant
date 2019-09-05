@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: " Avenir LT W01 95 Black", sans-serif;
+    background-color: black;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#Header {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 150px 5px 0px; */
+    /*background-color: #FFFFFF;*/
+
+    position: fixed;
+    z-index: 13;
+    width: 100%;
+    font-size: 17px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #1F2B21;
+    cursor: pointer;
+}
+
+.header1 {
+    width: 60px;
+    height: 60px;
+    /* z-index: 10; */
+}
+
+.header {
+    padding: 20px 30px 0px 10px;
+    color: #1F2B21;
+}
+
+.header3 {
+    margin-left: auto;
+}
+
+#Header li {
+    list-style: none;
+}
+
+.carousel-caption {
+    padding: 300px;
+    font-size: 30px;
+}
+.btn {
+    border-radius: 25px;
+}
+
+
+
+
